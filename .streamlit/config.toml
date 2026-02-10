@@ -11,7 +11,7 @@ toolbarMode = "viewer"
 ## enableCORS = false        # <--- DELETE THIS LINE (It conflicts with XsrfProtection)
 
 [server]
-port = 8501
+port = None
 headless = true
 
 # CRITICAL: These disable the security checks that block your phone
