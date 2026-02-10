@@ -1,0 +1,19 @@
+[browser]
+gatherUsageStats = false    # 1. Disables the "Collecting usage statistics" log
+
+[client]
+showErrorDetails = false
+toolbarMode = "viewer"
+
+#[server]
+#headless = true
+#enableXsrfProtection = true # 2. Keeps high security against CSRF attacks
+## enableCORS = false        # <--- DELETE THIS LINE (It conflicts with XsrfProtection)
+
+[server]
+port = 8501
+headless = true
+
+# CRITICAL: These disable the security checks that block your phone
+enableCORS = false
+enableXsrfProtection = true

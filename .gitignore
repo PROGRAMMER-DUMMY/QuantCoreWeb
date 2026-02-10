@@ -1,0 +1,13 @@
+
+# Python
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Logs (Optional: if you want to ignore logs in the public repo itself)
+# logs/
+
+# IDE
+.vscode/
+.idea/
